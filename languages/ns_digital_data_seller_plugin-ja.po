@@ -1,0 +1,1023 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-01-17 11:21+0900\n"
+"PO-Revision-Date: 2018-01-17 11:22+0900\n"
+"Last-Translator: nicolasoft <nicolasoft101@nicolasoft.net>\n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:43
+msgid "Email retransmitted"
+msgstr "メール再送信済み"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:47
+msgid "nsddsp_resend_email() Email retransmission completed $post_id= "
+msgstr "nsddsp_resend_email() メール再送信 完了 $post_id= "
+
+#: includes/ns_digital_data_seller_plugin_menu.php:52
+msgid "Error: nsddsp_resend_email Failed to send mail."
+msgstr "Error: nsddsp_resend_email メールの送信に失敗しました。"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:64
+msgid "View a log data"
+msgstr "ログデータ表示"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:98
+msgid "How to use digital data seller plugin"
+msgstr "デジタルデータ販売プラグインの使い方"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:100
+msgid "Add a button generated on Paypal's site to the product sales page."
+msgstr "商品販売ページにPaypalのサイトで生成したボタンを追加する"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:101
+msgid ""
+"Register the download sales file with \"Product name\" set for the button of "
+"Paypal"
+msgstr "Paypalのボタンに設定した「商品名」でダウンロード販売ファイルを登録する"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:102
+msgid ""
+"Set \"[Wordpress URL]/?nsddsp_paypal_ipn=1\" in Paypal's Instant Payment "
+"Notification(IPN) setting."
+msgstr ""
+"Paypalの即時支払い通知(IPN)の設定で「[ワードプレスのURL]/?"
+"nsddsp_paypal_ipn=1」を設定する"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:104
+msgid "---"
+msgstr "以上"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:116
+msgid "Plugin settings"
+msgstr "プラグインの設定"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:124
+msgid "Token generation string"
+msgstr "トークン生成文字列"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:126
+msgid "* Please set a character string of 6 characters or more."
+msgstr "※6文字以上の文字列を設定してください。"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:130
+msgid "Use Paypal's sandbox"
+msgstr "Paypalのサンドボックスを使用する"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:134
+msgid "Automatically send email to purchaser when receiving Paypal IPN"
+msgstr "Paypal IPN受信時に購入者へのメールを自動で送信する"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:138
+msgid "Seller's paypal registration email address"
+msgstr "販売者paypal登録Eメールアドレス"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:140
+msgid ""
+"* In case of blank, do not check \"receiver_email\" match when receiving "
+"Paypal IPN."
+msgstr ""
+"※空白の場合の場合は、Paypal IPN受信時に「receiver_email」の一致をチェックしま"
+"せん。"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:144
+msgid "Source Email address whitch sent to buyer."
+msgstr "購入者へのメールの送信元Eメールアドレス"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:148
+msgid "Name of the sender of the email sent to buyer. "
+msgstr "購入者へのメールの送信元の名前"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:150
+msgid "* If it is blank, \"Email address of the sender\" is set."
+msgstr "※空白の場合は、「送信元Eメールアドレス」が設定されます。"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:154
+msgid "BCC Email address to send to buyer."
+msgstr "購入者へのメールをBCCで送信するEメールアドレス"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:158
+msgid "Download expiration(hours)"
+msgstr "ダウンロード期限（時間）"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:160
+msgid "* \"24\" will be set for 1 day, \"72\" for 3 days."
+msgstr "※「24」で1日間、「72」で3日間の設定になります。"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:164
+msgid "Is Copy Download file"
+msgstr "IPN毎にダウンロードファイルをコピーする"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:169
+msgid "Title of Email to buyer"
+msgstr "購入者へのメールの題名"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:173
+msgid "Body of the Email to buyer"
+msgstr "購入者へのメールの本文"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:176
+#: includes/ns_digital_data_seller_plugin_menu.php:207
+msgid "Tag list converted by \"subject of email\" and \"body of Email\""
+msgstr "「メールの題名」、「メールの本文」で変換されるタグ一覧"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:177
+#: includes/ns_digital_data_seller_plugin_menu.php:208
+msgid "{first_name}:Buyer's first name"
+msgstr "{first_name} : 購入者の名前"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:178
+#: includes/ns_digital_data_seller_plugin_menu.php:209
+msgid "{last_name}:Buyer's last name"
+msgstr "{last_name} : 購入者の名字"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:179
+#: includes/ns_digital_data_seller_plugin_menu.php:210
+msgid "{payer_email}:Buyer's email address"
+msgstr "{payer_email} : 購入者のメールアドレス"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:180
+#: includes/ns_digital_data_seller_plugin_menu.php:211
+msgid "{transaction_id}:Transaction ID"
+msgstr "{transaction_id} : トランザクションID"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:181
+#: includes/ns_digital_data_seller_plugin_menu.php:212
+msgid "{purchase_date}:date of purchase"
+msgstr "{purchase_date} : 購入日"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:182
+#: includes/ns_digital_data_seller_plugin_menu.php:213
+msgid "{download_url}:Download URL"
+msgstr "{download_url} : ダウンロードURL"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:183
+#: includes/ns_digital_data_seller_plugin_menu.php:214
+msgid "{item_name}:Paypal registered product name"
+msgstr "{item_name} : Paypal登録製品名"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:184
+#: includes/ns_digital_data_seller_plugin_menu.php:215
+msgid "{expire_y}:Year of expiration of download URL"
+msgstr "{expire_y} : ダウンロードURLの有効期限の西暦年"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:185
+#: includes/ns_digital_data_seller_plugin_menu.php:216
+msgid "{expire_m}:Month of expiration of download URL"
+msgstr "{expire_m} : ダウンロードURLの有効期限の月"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:186
+#: includes/ns_digital_data_seller_plugin_menu.php:217
+msgid "{expire_d}:Day of expiration of download URL"
+msgstr "{expire_d} : ダウンロードURLの有効期限の日"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:187
+#: includes/ns_digital_data_seller_plugin_menu.php:218
+msgid "{expire_h}:Time of expiration of download URL(24 hour display)"
+msgstr "{expire_h} : ダウンロードURLの有効期限の時間（24時間表示）"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:192
+msgid "Destination email address which is sent to seller"
+msgstr "販売者へのメールの送信先Eメールアドレス"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:196
+msgid "Source email address which is sent to seller"
+msgstr "販売者へのメールの送信元Eメールアドレス"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:200
+msgid "Title of Email to seller"
+msgstr "販売者へのメールの題名"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:204
+msgid "Body of Email to seller"
+msgstr "販売者へのメールの本文"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:223
+msgid "Processed transaction ID"
+msgstr "処理済みのトランザクションID"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:226
+msgid ""
+"* Used to record the processed transaction ID and avoid multiple mail "
+"transmission etc. for the same transaction ID"
+msgstr ""
+"※処理完了したトランザクションIDを記録して、同じトランザクションIDに対して複数"
+"回のメール送信などを回避するために使用"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:231
+msgid "log file"
+msgstr "ログファイル"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:232
+msgid "Record log file"
+msgstr "ログファイルを記録する"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:235
+msgid "\"Open log file\""
+msgstr "\"ログファイルを開く\""
+
+#: includes/ns_digital_data_seller_plugin_menu.php:236
+msgid "\"Reset log file\""
+msgstr "\"ログファイルをリセットする\""
+
+#: includes/ns_digital_data_seller_plugin_menu.php:238
+msgid ""
+"* To reset the log data, enter the password \"ASDFQWE\" in the text box, "
+"then click the button."
+msgstr ""
+"※ログデータをリセットする場合は、テキストボックスにパスワード「ASDFQWE」を入"
+"力した後、ボタンをクリックしてください"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:256
+msgid "Invalid character string"
+msgstr "無効な文字列です"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:276
+#: includes/ns_digital_data_seller_plugin_menu.php:295
+#: includes/ns_digital_data_seller_plugin_menu.php:314
+#: includes/ns_digital_data_seller_plugin_menu.php:333
+#: includes/ns_digital_data_seller_plugin_menu.php:352
+msgid "Invalid email address"
+msgstr "無効なEメールアドレスです"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:380
+msgid "Invalid expiration time"
+msgstr "無効な期限時間です"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:417
+msgid "You do not have sufficient permissions to access this page."
+msgstr "You do not have sufficient permissions to access this page."
+
+#: includes/ns_digital_data_seller_plugin_menu.php:420
+msgid "Dummy page"
+msgstr "無効な期限時間です"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:427
+msgid "Paypal Data sales"
+msgstr "Paypal データ販売"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:428
+msgid "Setting"
+msgstr "設定"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:429
+msgid "How to use"
+msgstr "使い方"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:454
+msgid "Product name of Paypal button (Item Name)"
+msgstr "Paypalボタンの製品名(Item Name)"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:457
+msgid "Download file name (if it is blank, the original file name is set.)"
+msgstr "ダウンロード時のファイル名(空白ならば、元のファイル名のまま)"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:460
+#: includes/ns_digital_data_seller_plugin_menu.php:705
+#: includes/ns_digital_data_seller_plugin_menu.php:811
+#: includes/ns_digital_data_seller_plugin_menu.php:841
+msgid "Number of downloads"
+msgstr "ダウンロード数"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:468
+#: includes/ns_digital_data_seller_plugin_menu.php:477
+msgid "File Path"
+msgstr "ファイルパス"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:470
+#: includes/ns_digital_data_seller_plugin_menu.php:479
+msgid "File URL (Current time URL)"
+msgstr "ファイルURL(現在時刻より求めたURL)"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:478
+#: includes/ns_digital_data_seller_plugin_menu.php:480
+msgid "no settings"
+msgstr "設定なし"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:485
+msgid "[To update the file, select it below and press update button]"
+msgstr "【ファイルを更新する場合は以下で選択し、更新ボタンを押す】"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:490
+msgid "Delete file"
+msgstr "ファイルを削除"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:501
+msgid "Product data file"
+msgstr "販売データファイル"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:663
+msgid "IPN data information"
+msgstr "IPNデータ情報"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:664
+msgid "Email address"
+msgstr "Eメールアドレス"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:667
+msgid "First Name   -   Last Name"
+msgstr "名前(First Name)   -   名字(Last Name)"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:671
+msgid "Product name of Paypal button"
+msgstr "Paypal ボタンの商品名"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:674
+msgid "Paypal transaction ID"
+msgstr "Paypal トランザクションID"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:677
+msgid "Purchase date"
+msgstr "購入日"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:680
+#: includes/ns_digital_data_seller_plugin_menu.php:840
+msgid "Payment status"
+msgstr "支払状態"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:683
+#: includes/ns_digital_data_seller_plugin_menu.php:839
+msgid "Email transmission status"
+msgstr "メール送信状態"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:686
+msgid "Download file name"
+msgstr "ダウンロードファイル名"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:691
+msgid "Reissue File URL (Current time URL)"
+msgstr "再発行URL(現在時間から作成)"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:708
+msgid ""
+"【Retransmission of Email】 * If you enter password and execute \"Update\" "
+"it will be retransmitted."
+msgstr "【メールの再送】 ※パスワードを入力して「更新」を実行すると再送されます"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:709
+msgid ":Please enter the password \"ASDFQWE\""
+msgstr " ：パスワード「ASDFQWE」を入力してください"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:710
+msgid "Resend email"
+msgstr "メールを再送する"
+
+#: includes/ns_digital_data_seller_plugin_menu.php:829
+#: includes/ns_digital_data_seller_plugin_menu.php:859
+#: includes/ns_digital_data_seller_plugin_menu.php:872
+#: includes/ns_digital_data_seller_plugin_menu.php:885
+msgid "None"
+msgstr "None"
+
+#: includes/ns_digital_data_seller_plugin_post_type.php:49
+msgid ""
+"Error:nsddsp_getDownFileUrlFromItemName() \"Item name\" is not found "
+"$item_name= "
+msgstr ""
+"Error:nsddsp_getDownFileUrlFromItemName() 「item name」が見つかりません "
+"$item_name= "
+
+#: includes/ns_digital_data_seller_plugin_post_type.php:54
+msgid "Error:nsddsp_getDownFileUrlFromItemName() Post data not found"
+msgstr "Error:nsddsp_getDownFileUrlFromItemName() 投稿データが見つかりません"
+
+#: includes/ns_digital_data_seller_plugin_post_type.php:212
+#: includes/ns_digital_data_seller_plugin_post_type.php:213
+msgid "File"
+msgstr "ファイル"
+
+#: includes/ns_digital_data_seller_plugin_post_type.php:214
+msgid "File list"
+msgstr "ファイル一覧"
+
+#: includes/ns_digital_data_seller_plugin_post_type.php:215
+#: includes/ns_digital_data_seller_plugin_post_type.php:218
+msgid "Add file"
+msgstr "ファイル追加"
+
+#: includes/ns_digital_data_seller_plugin_post_type.php:216
+msgid "Add files"
+msgstr "ファイルの追加"
+
+#: includes/ns_digital_data_seller_plugin_post_type.php:217
+msgid "Edit file"
+msgstr "ファイルの編集"
+
+#: includes/ns_digital_data_seller_plugin_post_type.php:219
+msgid "File display"
+msgstr "ファイル表示"
+
+#: includes/ns_digital_data_seller_plugin_post_type.php:220
+msgid "File search"
+msgstr "ファイル検索"
+
+#: includes/ns_digital_data_seller_plugin_post_type.php:221
+msgid "File not found"
+msgstr "ファイルが見つかりません"
+
+#: includes/ns_digital_data_seller_plugin_post_type.php:222
+msgid "File was not found in the trash can."
+msgstr "ゴミ箱内にファイルが見つかりませんでした。"
+
+#: includes/ns_digital_data_seller_plugin_post_type.php:243
+#: includes/ns_digital_data_seller_plugin_post_type.php:244
+msgid "IPN data"
+msgstr "IPNデータ"
+
+#: includes/ns_digital_data_seller_plugin_post_type.php:245
+msgid "IPN data list"
+msgstr "IPNデータ一覧"
+
+#: includes/ns_digital_data_seller_plugin_post_type.php:246
+#: includes/ns_digital_data_seller_plugin_post_type.php:247
+#: includes/ns_digital_data_seller_plugin_post_type.php:249
+msgid "Add IPN data"
+msgstr "IPNデータ追加"
+
+#: includes/ns_digital_data_seller_plugin_post_type.php:248
+msgid "Edit IPN data"
+msgstr "IPNデータの編集"
+
+#: includes/ns_digital_data_seller_plugin_post_type.php:250
+msgid "IPN data display"
+msgstr "IPNデータ表示"
+
+#: includes/ns_digital_data_seller_plugin_post_type.php:251
+msgid "IPN data search"
+msgstr "IPNデータ検索"
+
+#: includes/ns_digital_data_seller_plugin_post_type.php:252
+msgid "IPN data not found"
+msgstr "IPNデータが見つかりません"
+
+#: includes/ns_digital_data_seller_plugin_post_type.php:253
+msgid "IPN data was not found in the trash can."
+msgstr "ゴミ箱内にIPNデータが見つかりませんでした。"
+
+#: ns_digital_data_seller_plugin.php:640
+msgid ""
+"Error:nsddsp_downfile_copy_to_post() \"Item name\" is not found $item_name= "
+msgstr ""
+"Error:nsddsp_downfile_copy_to_post() \"Item name\" is not found $item_name= "
+
+#: ns_digital_data_seller_plugin.php:645
+msgid "Error:nsddsp_downfile_copy_to_post() Post data not found"
+msgstr "Error:nsddsp_downfile_copy_to_post() Post data not found"
+
+#: ns_digital_data_seller_plugin.php:772
+msgid "Email not sent"
+msgstr "メール未送信"
+
+#: ns_digital_data_seller_plugin.php:816
+msgid "Duplicate transaction ID"
+msgstr "トランザクションIDの重複"
+
+#: ns_digital_data_seller_plugin.php:852
+msgid "Download file not found."
+msgstr "ダウンロードファイルがみつかりません。"
+
+#: ns_digital_data_seller_plugin.php:884
+msgid "Email transmission completion"
+msgstr "メール送信済み"
+
+#: ns_digital_data_seller_plugin.php:902
+msgid "Paypal post-back INVALID"
+msgstr "Paypalポストバック INVALID発生"
+
+#: ns_digital_data_seller_plugin.php:1012
+msgid "This downloading URL seems to be abnormality or over a deadline."
+msgstr ""
+"ダウンロードURLが異常か、もしくはダウンロード期限を超えているようです。"
+
+#: ns_digital_data_seller_plugin.php:1013
+#: ns_digital_data_seller_plugin.php:1059
+msgid "Download failed"
+msgstr "ダウンロード失敗"
+
+#: ns_digital_data_seller_plugin.php:1058
+msgid "Download file could not be found."
+msgstr "ダウンロードファイルが見つかりませんでした。"
+
+#: ns_digital_data_seller_plugin.php:1131
+msgid "Thank you for your purchase."
+msgstr "ご購入ありがとうございました。"
+
+#: ns_digital_data_seller_plugin.php:1133
+msgid ""
+"◆◆◆◆◆◆ Thank you for purchasing ◆ ◆ ◆ ◆ ◆ ◆\n"
+"\n"
+"-----------------------------------------------------\n"
+"This email is an important email regarding your order.\n"
+"Please save it carefully until dealings are completed.\n"
+"-----------------------------------------------------\n"
+"\n"
+"Dear {first_name} {last_name} \n"
+"\n"
+"This time,\n"
+"Thank you for purchasing our product \"{item_name}\".\n"
+"\n"
+"\"Order details\" and \"Download URL\" are as follows.\n"
+"\n"
+"Please download the purchased file from \"Download URL\"\n"
+"and use it.\n"
+"\n"
+"-------------------------------------------------------\n"
+"■ Order contents ■\n"
+"[Order number (transaction ID)]\n"
+"{transaction_id}\n"
+"\n"
+"[Purchase date]\n"
+"{purchase_date}\n"
+"\n"
+"■ Download URL ■\n"
+"[URL]\n"
+"{download_url}\n"
+"\n"
+"[Expiration date]\n"
+"{expire_y}/{expire_m}/{expire_d} {expire_h}\n"
+"\n"
+"-------------------------------------------------------\n"
+msgstr ""
+"◆◆◆◆◆◆ ご購入ありがとうございました ◆◆◆◆◆◆\n"
+"\n"
+"-----------------------------------------------------\n"
+"このメールは、お客様の注文に関する大切なメールです。\n"
+"お取引が完了するまで大切に保存しておいてください。\n"
+"-----------------------------------------------------\n"
+"\n"
+"{last_name} {first_name}様\n"
+"\n"
+"この度は、\n"
+"弊社の製品「{item_name}」を\n"
+"ご購入いただき、誠にありがとうございました。\n"
+"\n"
+"「ご注文内容」および「ダウンロードURL」は以下の通りです。\n"
+"「ダウンロードURL」より、\n"
+"ご購入されたファイルをダウンロードし、ご利用ください。\n"
+"\n"
+"-------------------------------------------------------\n"
+"■ご注文内容■\n"
+"[ご注文番号（トランザクションID）]\n"
+"{transaction_id}\n"
+"\n"
+"[購入日]\n"
+"{purchase_date}\n"
+"\n"
+"■ダウンロードURL■\n"
+"[URL]\n"
+"{download_url}\n"
+"\n"
+"[ダウンロードURLの期限]\n"
+"{expire_y}年{expire_m}月{expire_d}日{expire_h}時まで\n"
+"\n"
+"-------------------------------------------------------\n"
+"\n"
+"以上、よろしくお願いいたします。\n"
+
+#: ns_digital_data_seller_plugin.php:1210
+msgid "Payment completion notification"
+msgstr "お支払い完了通知"
+
+#: ns_digital_data_seller_plugin.php:1212
+msgid ""
+"\n"
+"{first_name}:Buyer's first name\n"
+"{last_name}:Buyer's last name\n"
+"{payer_email}:Buyer's email address\n"
+"{transaction_id}:Transaction ID\n"
+"{purchase_date}:date of purchase\n"
+"{download_url}:Download URL\n"
+"{item_name}:Paypal registered product name\n"
+"{expire_y}:Year of expiration of download URL\n"
+"{expire_m}:Month of expiration of download URL\n"
+"{expire_d}:Day of expiration of download URL\n"
+"{expire_h}:Time of expiration of download URL(24 hour display)\n"
+msgstr ""
+"\n"
+"{first_name} : 購入者の名前\n"
+"{last_name} : 購入者の名字\n"
+"{payer_email} : 購入者のメールアドレス\n"
+"{transaction_id} : トランザクションID\n"
+"{purchase_date} : 購入日\n"
+"{download_url} : ダウンロードURL\n"
+"{item_name} : Paypal登録製品名\n"
+"{expire_y} : ダウンロードURLの有効期限の西暦年\n"
+"{expire_m} : ダウンロードURLの有効期限の月\n"
+"{expire_d} : ダウンロードURLの有効期限の日\n"
+"{expire_h} : ダウンロードURLの有効期限の時間（24時間表示）\n"
+
+#~ msgid ""
+#~ "Set \"<Wordpress URL>/?nsddsp_paypal_ipn=1\" in Paypal's Instant Payment "
+#~ "Notification(IPN) setting."
+#~ msgstr ""
+#~ "Paypalの即時支払い通知(IPN)の設定で「<ワードプレスのURL>/?"
+#~ "nsddsp_paypal_ipn=1」を設定する"
+
+#~ msgid "メール再送信済み"
+#~ msgstr "Email retransmitted"
+
+#~ msgid "商品販売ページにPaypalのサイトで生成したボタンを追加する"
+#~ msgstr "Add a button generated on Paypal's site to the product sales page."
+
+#~ msgid ""
+#~ "Paypalのボタンに設定した「商品名」でダウンロード販売ファイルを登録する"
+#~ msgstr ""
+#~ "Register the download sales file with \"Product name\" set for the button "
+#~ "of Paypal"
+
+#~ msgid ""
+#~ "Paypalの即時支払い通知(IPN)の設定で「<ワードプレスのURL>/?"
+#~ "nsddsp_paypal_ipn=1」を設定する"
+#~ msgstr ""
+#~ "Set \"<Wordpress URL>/?nsddsp_paypal_ipn=1\" in Paypal's Instant Payment "
+#~ "Notification(IPN) setting."
+
+#~ msgid "以上"
+#~ msgstr "---"
+
+#~ msgid "プラグインの設定"
+#~ msgstr "Plugin settings"
+
+#~ msgid "トークン生成文字列"
+#~ msgstr "Token generation string"
+
+#~ msgid "※6文字以上の文字列を設定してください。"
+#~ msgstr "* Please set a character string of 6 characters or more."
+
+#~ msgid "Paypalのサンドボックスを使用する"
+#~ msgstr "Use Paypal's sandbox"
+
+#~ msgid "Paypal IPN受信時に購入者へのメールを自動で送信する"
+#~ msgstr "Automatically send mail to purchaser when receiving Paypal IPN"
+
+#~ msgid "販売者paypal登録Eメールアドレス"
+#~ msgstr "Seller's paypal registration email address"
+
+#~ msgid ""
+#~ "※空白の場合の場合は、Paypal IPN受信時に「receiver_email」の一致をチェック"
+#~ "しません。"
+#~ msgstr ""
+#~ "* In case of blank, do not check \"receiver_email\" match when receiving "
+#~ "Paypal IPN."
+
+#~ msgid "購入者へのメールの送信元Eメールアドレス"
+#~ msgstr "Source Email address whitch sent to buyer."
+
+#~ msgid "購入者へのメールの送信元の名前"
+#~ msgstr "Name of the sender of the email sent to buyer. "
+
+#~ msgid "※空白の場合は、「送信元Eメールアドレス」が設定されます。"
+#~ msgstr "* If it is blank, \"Email address of the sender\" is set."
+
+#~ msgid "購入者へのメールをBCCで送信するEメールアドレス"
+#~ msgstr "BCC Email address to send to buyer."
+
+#~ msgid "ダウンロード期限（時間）"
+#~ msgstr "Download deadline (hours)"
+
+#~ msgid "※「24」で1日間、「72」で3日間の設定になります。"
+#~ msgstr "* \"24\" will be set for 1 day, \"72\" for 3 days."
+
+#~ msgid "購入者へのメールの題名"
+#~ msgstr "Title of Email to buyer"
+
+#~ msgid "購入者へのメールの本文"
+#~ msgstr "Body of the Email to buyer"
+
+#~ msgid "「メールの題名」、「メールの本文」で変換されるタグ一覧"
+#~ msgstr "Tag list converted by \"subject of email\" and \"body of Email\""
+
+#~ msgid "{first_name} : 購入者の名前"
+#~ msgstr "{first_name}:Buyer's first name"
+
+#~ msgid "{last_name} : 購入者の名字"
+#~ msgstr "{last_name}:Buyer's last name"
+
+#~ msgid "{payer_email} : 購入者のメールアドレス"
+#~ msgstr "{payer_email}:Buyer's email address"
+
+#~ msgid "{transaction_id} : トランザクションID"
+#~ msgstr "{transaction_id}:Transaction ID"
+
+#~ msgid "{purchase_date} : 購入日"
+#~ msgstr "{purchase_date}:date of purchase"
+
+#~ msgid "{download_url} : ダウンロードURL"
+#~ msgstr "{download_url}:Download URL"
+
+#~ msgid "{item_name} : Paypal登録製品名"
+#~ msgstr "{item_name}:Paypal registered product name"
+
+#~ msgid "{expire_y} : ダウンロードURLの有効期限の西暦年"
+#~ msgstr "{expire_y}:Year of expiration of download URL"
+
+#~ msgid "{expire_m} : ダウンロードURLの有効期限の月"
+#~ msgstr "{expire_m}:Month of expiration of download URL"
+
+#~ msgid "{expire_d} : ダウンロードURLの有効期限の日"
+#~ msgstr "{expire_d}:Day of expiration of download URL"
+
+#~ msgid "{expire_h} : ダウンロードURLの有効期限の時間（24時間表示）"
+#~ msgstr "{expire_h}:Time of expiration of download URL(24 hour display)"
+
+#~ msgid "販売者へのメールの送信先Eメールアドレス"
+#~ msgstr "Destination email address which is sent to seller"
+
+#~ msgid "販売者へのメールの送信元Eメールアドレス"
+#~ msgstr "Source email address which is sent to seller"
+
+#~ msgid "販売者へのメールの題名"
+#~ msgstr "Title of Email to seller"
+
+#~ msgid "販売者へのメールの本文"
+#~ msgstr "Body of Email to seller"
+
+#~ msgid "処理済みのトランザクションID"
+#~ msgstr "Processed transaction ID"
+
+#~ msgid ""
+#~ "※処理完了したトランザクションIDを記録して、同じトランザクションIDに対して"
+#~ "複数回のメール送信などを回避するために使用"
+#~ msgstr ""
+#~ "* Used to record the processed transaction ID and avoid multiple mail "
+#~ "transmission etc. for the same transaction ID"
+
+#~ msgid "ログファイル"
+#~ msgstr "log file"
+
+#~ msgid "ログファイルを記録する"
+#~ msgstr "Record log file"
+
+#~ msgid "\"ログファイルを開く\""
+#~ msgstr "\"Open log file\""
+
+#~ msgid "\"ログファイルをリセットする\""
+#~ msgstr "\"Reset log file\""
+
+#~ msgid ""
+#~ "※ログデータをリセットする場合は、テキストボックスにパスワード「ASDFQWE」を"
+#~ "入力した後、ボタンをクリックしてください"
+#~ msgstr ""
+#~ "* To reset the log data, enter the password \"ASDFQWE\" in the text box, "
+#~ "then click the button."
+
+#~ msgid "無効な文字列です"
+#~ msgstr "Invalid character string"
+
+#~ msgid "無効なEメールアドレスです"
+#~ msgstr "Invalid email address"
+
+#~ msgid "無効な期限時間です"
+#~ msgstr "Invalid expiration time"
+
+#~ msgid "ダミーページ"
+#~ msgstr "Dummy page"
+
+#~ msgid "データ販売"
+#~ msgstr "Paypal Data sales"
+
+#~ msgid "設定"
+#~ msgstr "Setting"
+
+#~ msgid "使い方"
+#~ msgstr "How to use"
+
+#~ msgid "Paypalボタンの製品名(Item Name)"
+#~ msgstr "Product name of Paypal button (Item Name)"
+
+#~ msgid "ダウンロード時のファイル名(空白ならば、元のファイル名のまま)"
+#~ msgstr "Download file name (if it is blank, the original file name is set.)"
+
+#~ msgid "過去のダウンロード数"
+#~ msgstr "Number of downloads"
+
+#~ msgid "ファイルパス"
+#~ msgstr "File Path"
+
+#~ msgid "ファイルURL(現在時刻より求めたURL)"
+#~ msgstr "File URL (Current time URL)"
+
+#~ msgid "設定なし"
+#~ msgstr "no settings"
+
+#~ msgid "【ファイルを更新する場合は以下で選択し、更新ボタンを押す】"
+#~ msgstr "[To update the file, select it below and press update button]"
+
+#~ msgid "ファイルを削除"
+#~ msgstr "Delete file"
+
+#~ msgid "販売データファイル"
+#~ msgstr "Product data file"
+
+#~ msgid "IPNデータ情報"
+#~ msgstr "IPN data information"
+
+#~ msgid "Eメールアドレス"
+#~ msgstr "Email address"
+
+#~ msgid "名前(First Name)   -   名字(Last Name)"
+#~ msgstr "First Name   -   Last Name"
+
+#~ msgid "Paypal ボタンの商品名"
+#~ msgstr "Product name of Paypal button"
+
+#~ msgid "Paypal トランザクションID"
+#~ msgstr "Paypal transaction ID"
+
+#~ msgid "購入日"
+#~ msgstr "Purchase date"
+
+#~ msgid "支払状態"
+#~ msgstr "Payment status"
+
+#~ msgid "メール送信状態"
+#~ msgstr "Mail transmission status"
+
+#~ msgid "ダウンロード数"
+#~ msgstr "Number of downloads"
+
+#~ msgid ""
+#~ "【メールの再送】 ※パスワードを入力して「更新」を実行すると再送されます"
+#~ msgstr ""
+#~ "【Retransmission of Email】 * If you enter password and execute \"Update"
+#~ "\" it will be retransmitted."
+
+#~ msgid " ：パスワード「ASDFQWE」を入力してください"
+#~ msgstr ":Please enter the password \"ASDFQWE\""
+
+#~ msgid "メールを再送する"
+#~ msgstr "Resend email"
+
+#~ msgid "過去ダウンロード数"
+#~ msgstr "Number of downloads"
+
+#~ msgid ""
+#~ "Error:nsddsp_getDownFileUrlFromItemName() 「item name」が見つかりません "
+#~ "$item_name= "
+#~ msgstr ""
+#~ "Error:nsddsp_getDownFileUrlFromItemName() \"Item name\" is not found "
+#~ "$item_name= "
+
+#~ msgid "Error:nsddsp_getDownFileUrlFromItemName() 投稿データが見つかりません"
+#~ msgstr "Error:nsddsp_getDownFileUrlFromItemName() Post data not found"
+
+#~ msgid "ファイル"
+#~ msgstr "File"
+
+#~ msgid "ファイル一覧"
+#~ msgstr "File list"
+
+#~ msgid "ファイル追加"
+#~ msgstr "Add file"
+
+#~ msgid "ファイルの追加"
+#~ msgstr "Add files"
+
+#~ msgid "ファイルの編集"
+#~ msgstr "Edit file"
+
+#~ msgid "ファイル表示"
+#~ msgstr "File display"
+
+#~ msgid "ファイル検索"
+#~ msgstr "File search"
+
+#~ msgid "ファイルが見つかりません"
+#~ msgstr "File not found"
+
+#~ msgid "ゴミ箱内にファイルが見つかりませんでした。"
+#~ msgstr "The file was not found in the trash can."
+
+#~ msgid "IPNデータ"
+#~ msgstr "IPN data"
+
+#~ msgid "IPNデータ一覧"
+#~ msgstr "IPN data list"
+
+#~ msgid "IPNデータ追加"
+#~ msgstr "Add IPN data"
+
+#~ msgid "IPNデータの追加"
+#~ msgstr "Add IPN data"
+
+#~ msgid "IPNデータの編集"
+#~ msgstr "Edit IPN data"
+
+#~ msgid "IPNデータ表示"
+#~ msgstr "IPN data display"
+
+#~ msgid "IPNデータ検索"
+#~ msgstr "IPN data search"
+
+#~ msgid "IPNデータが見つかりません"
+#~ msgstr "IPN data not found"
+
+#~ msgid "ゴミ箱内にIPNデータが見つかりませんでした。"
+#~ msgstr "IPN data was not found in the trash can."
+
+#~ msgid ""
+#~ "◆◆◆◆◆◆ ご購入ありがとうございました ◆◆◆◆◆◆\n"
+#~ "\n"
+#~ "-----------------------------------------------------\n"
+#~ "このメールは、お客様の注文に関する大切なメールです。\n"
+#~ "お取引が完了するまで大切に保存しておいてください。\n"
+#~ "-----------------------------------------------------\n"
+#~ "\n"
+#~ "{last_name} {first_name}様\n"
+#~ "\n"
+#~ "この度は、\n"
+#~ "弊社の製品「{item_name}」を\n"
+#~ "ご購入いただき、誠にありがとうございました。\n"
+#~ "\n"
+#~ "「ご注文内容」および「ダウンロードURL」は以下の通りです。\n"
+#~ "「ダウンロードURL」より、\n"
+#~ "ご購入されたファイルをダウンロードし、ご利用ください。\n"
+#~ "\n"
+#~ "-------------------------------------------------------\n"
+#~ "■ご注文内容■\n"
+#~ "[ご注文番号（トランザクションID）]\n"
+#~ "{transaction_id}\n"
+#~ "\n"
+#~ "[購入日]\n"
+#~ "{purchase_date}\n"
+#~ "\n"
+#~ "■ダウンロードURL■\n"
+#~ "[URL]\n"
+#~ "{download_url}\n"
+#~ "\n"
+#~ "[ダウンロードURLの期限]\n"
+#~ "{expire_y}年{expire_m}月{expire_d}日{expire_h}時まで\n"
+#~ "\n"
+#~ "-------------------------------------------------------\n"
+#~ "\n"
+#~ "以上、よろしくお願いいたします。\n"
+#~ msgstr ""
+#~ "◆◆◆◆◆◆ Thank you for purchasing ◆ ◆ ◆ ◆ ◆ ◆\n"
+#~ "\n"
+#~ "-----------------------------------------------------\n"
+#~ "This email is an important email regarding your order.\n"
+#~ "Please save it carefully until dealings are completed.\n"
+#~ "-----------------------------------------------------\n"
+#~ "\n"
+#~ "Dear {first_name} {last_name} \n"
+#~ "\n"
+#~ "This time,\n"
+#~ "Thank you for purchasing our product \"{item_name}\".\n"
+#~ "\n"
+#~ "\"Order details\" and \"Download URL\" are as follows.\n"
+#~ "\n"
+#~ "Please download the purchased file from \"Download URL\"\n"
+#~ "and use it.\n"
+#~ "\n"
+#~ "-------------------------------------------------------\n"
+#~ "■ Order contents ■\n"
+#~ "[Order number (transaction ID)]\n"
+#~ "{transaction_id}\n"
+#~ "\n"
+#~ "[Purchase date]\n"
+#~ "{purchase_date}\n"
+#~ "\n"
+#~ "■ Download URL ■\n"
+#~ "[URL]\n"
+#~ "{download_url}\n"
+#~ "\n"
+#~ "[Expiration date]\n"
+#~ "{expire_y}/{expire_m}/{expire_d} {expire_h}\n"
+#~ "\n"
+#~ "-------------------------------------------------------\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "{first_name} : 購入者の名前\n"
+#~ "{last_name} : 購入者の名字\n"
+#~ "{payer_email} : 購入者のメールアドレス\n"
+#~ "{transaction_id} : トランザクションID\n"
+#~ "{purchase_date} : 購入日\n"
+#~ "{download_url} : ダウンロードURL\n"
+#~ "{item_name} : Paypal登録製品名\n"
+#~ "{expire_y} : ダウンロードURLの有効期限の西暦年\n"
+#~ "{expire_m} : ダウンロードURLの有効期限の月\n"
+#~ "{expire_d} : ダウンロードURLの有効期限の日\n"
+#~ "{expire_h} : ダウンロードURLの有効期限の時間（24時間表示）\n"
+#~ msgstr ""
+#~ "\n"
+#~ "{first_name}:Buyer's first name\n"
+#~ "{last_name}:Buyer's last name\n"
+#~ "{payer_email}:Buyer's email address\n"
+#~ "{transaction_id}:Transaction ID\n"
+#~ "{purchase_date}:date of purchase\n"
+#~ "{download_url}:Download URL\n"
+#~ "{item_name}:Paypal registered product name\n"
+#~ "{expire_y}:Year of expiration of download URL\n"
+#~ "{expire_m}:Month of expiration of download URL\n"
+#~ "{expire_d}:Day of expiration of download URL\n"
+#~ "{expire_h}:Time of expiration of download URL(24 hour display)\n"
